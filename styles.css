@@ -30,12 +30,12 @@
     color: green;
     font-size: 88px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-  }
 }
 
 li {
   list-style-type: square;
   border: 2px solid black;
+  list-style: none;
 }
 
 .lost {
@@ -46,4 +46,24 @@ li {
 .found {
   text-decoration: underline;
   color: rgb(40, 250, 40);
+}
+
+.WARNING {
+  background-color: rgb(255, 241, 43);
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+h2 {
+  margin-left: 40px;
+}
+
+h3{
+  margin-left: 40px;
 }
